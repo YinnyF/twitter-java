@@ -22,6 +22,7 @@ public class Tweet {
         this.body = body;
     }
 
+    // custom return value for toString (inherited from Object)
     @Override
     public String toString() {
         return String.format("Tweet[id=%d, body='%s']", id, body);
