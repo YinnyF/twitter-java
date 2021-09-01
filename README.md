@@ -30,8 +30,11 @@ Then, in the Gradle sidebar:
 
 Then, start the server:
 ```
-http://localhost:8080/
+./gradlew bootRun
 ```
+
+Then visit: `http://localhost:8080/`
+
 
 ## Features to implement
 
