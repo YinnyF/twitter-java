@@ -12,10 +12,9 @@ It comes set up with:
 
 Posting and listing tweets is already implemented and commented.
 
-## Quickstart
+## Usage
 
-First create the databases.
-
+First create the databases:
 ```shell
 ; createdb makers-twitter-clone-dev
 ; createdb makers-twitter-clone-test
@@ -29,7 +28,10 @@ Then, in the Gradle sidebar:
 * To run the tests: `Twitter -> Tasks -> Verification -> Test`
 * To run the server: `Twitter -> Tasks -> Application -> bootRun`
 
-If you encounter any problems, they are not intended. Contact your coach for advice.
+Then, start the server:
+```
+http://localhost:8080/
+```
 
 ## Upstream Documentation
 
@@ -49,15 +51,3 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-
-
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->
