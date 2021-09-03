@@ -23,6 +23,7 @@
         <li th:each="tweet: ${tweets}">
             <span th:text="${tweet.body}"></span>
             <!--  ^^^^^^^  ^^^^^^^^^^^^^ And this pulls the body of the tweet out, and puts it into element -->
+            <span th:text="${#temporals.format(tweet.createdAt, 'dd-MM-yyyy HH:mm')}"></span>
         </li>
     </ul>
 </body>
